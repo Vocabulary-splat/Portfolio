@@ -83,14 +83,16 @@ a.nav:hover{
   color: #84e2ff;
   font-size: 110%;
   display: grid;
-  
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 	
   margin-right: 5%;
   margin-left: 5%; /* Centers content horizontally and vertically */
 
 }
 .screenholder {
-	background-color: blue;
+	
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
