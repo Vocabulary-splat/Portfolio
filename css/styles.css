@@ -99,9 +99,17 @@ a.nav:hover{
 	justify-content: space-around;
 	align-items: stretch;
 }
+.projectsholder {
+	height: 300vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: stretch;
+
+}
 
 .textbox p {
-  #text-align: justify;
+  text-align: justify;
   
 }
 .title {
