@@ -2,12 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: black;
+  
 }
-html,
-body {
-  height: 100%;
-}
+
 h1,
 h2,
 h3,
@@ -34,9 +31,12 @@ img {
   font-family: gen;
   src: url(../fonts/NanumMyeongjo-Bold.ttf);
 }
+body{
+background-color: black;
+}
 .big {
   background-color: black;
-  width: 100%;
+  /*width: 100%;*/
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -50,23 +50,54 @@ img {
   width: 600px;
 }
 .navbar {
-  width: 513px;
+  
+  display: flex;
+  align-items: strech;
+  justify-content: center;
   font-family: gen;
   color: #84e2ff;
   font-size: 16px;
+  
+}
+.nav{
+	display: flex;
+	align-items: center;
+	padding: 50px;
+	highlight-color
+	
+
+}
+.nav:hover{
+	background-color:darkgrey;
+}
+a.nav:hover{
+	background-color:darkgrey;
+	
+
 }
 .textbox {
+  /*margin-top: 5%;
+  margin-bottom: 5%;*/
   width: 500px;
   font-family: gen;
   color: #84e2ff;
   font-size: 110%;
   display: grid;
-  place-items: center;
+  
 	
   margin-right: 5%;
   margin-left: 5%; /* Centers content horizontally and vertically */
 
 }
+.screenholder {
+	background-color: blue;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
 .textbox p {
   #text-align: justify;
   
@@ -76,22 +107,19 @@ img {
   color: #84e2ff;
   font-size: 43px;
 }
-.hs {
-  height: 15px;
-}
+
 .flex-container {
-	margin-top: 5%;
-	margin-bottom: 5%;
+	/*margin-top: 5%;
+	margin-bottom: 5%;*/
   display: flex;
   justify-content: center;
-
-  #margin-left: 10%; 
-  
-  
+  align-items: strech;
+  margin-left: 5%; 
 }
+
 #bigger {
 	width: 700px;
 }
 #opening {
-	width: 300px
+	/*width: 300px*/
 }
