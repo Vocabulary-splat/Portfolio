@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\css"
+    "\\css",
+    "\\package",
+    "\\package\\dist",
+    "\\package\\src",
+    "\\package\\vendor"
   ],
+  "SelectedNode": "\\package\\dist\\vanta.birds.min.js",
   "PreviewInSolutionExplorer": false
 }

@@ -4,7 +4,9 @@
   box-sizing: border-box;
   
 }
-
+body{
+	background: black;
+}
 h1,
 h2,
 h3,
@@ -23,6 +25,12 @@ a {
 img {
   width: 500px;
 }
+canvas {
+    
+	display: block;
+    width: 100vw;
+    height: 100vh;
+}
 @font-face {
   font-family: title;
   src: url(../fonts/NanumMyeongjo-Regular.ttf);
@@ -32,22 +40,29 @@ img {
   src: url(../fonts/NanumMyeongjo-Bold.ttf);
 }
 body{
-background-color: black;
+
 }
 .big {
-  background-color: black;
-  /*width: 100%;*/
+  position: absolute;
+  top: 0;
+  width:100vw;
+  
+  
+  /*width: 600px%;*/
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
+	
+
+
 .fc {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 .wrapper {
-  width: 600px;
+  width: 800px;
 }
 .navbar {
   
@@ -63,12 +78,12 @@ background-color: black;
 	display: flex;
 	align-items: center;
 	padding: 50px;
-	highlight-color
+	
 	
 
 }
 .nav:hover{
-	background-color:darkgrey;
+	background-color:#111;
 }
 a.nav:hover{
 	background-color:darkgrey;
