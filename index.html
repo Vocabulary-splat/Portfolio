@@ -9,11 +9,11 @@
     
   </head>
   <body>
-  <div id="background" style="height=100%;width=100%"></div>
+  <div id="background" ></div>
   
   
-  <script src="\package\vendor\three.r134.min.js"></script>
-  <script src="\package\dist\vanta.birds.min.js"></script>
+  <script src="package\vendor\three.r134.min.js"></script>
+  <script src="package\dist\vanta.birds.min.js"></script>
   <script>
 VANTA.BIRDS({
   el: "#background",
@@ -24,8 +24,13 @@ VANTA.BIRDS({
   minWidth: 200.00,
   scale: 1.00,
   scaleMobile: 1.00,
+  backgroundColor: 0x0,
   color1: 0x4fbaeb,
-  color2: 0xc5c5c5
+  color2: 0xc5c5c5,
+  birdSize: 0.60,
+  speedLimit: 9.00,
+  cohesion: 59.00,
+  quantity: 2.00
 })
 </script>
   <div class="big">
