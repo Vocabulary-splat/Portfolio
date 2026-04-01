@@ -88,12 +88,14 @@ body{
 
 }
 .nav:hover{
-	background-color:#111;
+	background-color:rgba(255, 255, 255, 0.1);
 }
 a.nav:hover{
 	background-color:darkgrey;
-	
 
+}
+.backboi{
+	background-color:rgba(255, 255, 255, 0.1);
 }
 .textbox {
   /*margin-top: 5%;
@@ -149,6 +151,8 @@ p.textbox {
   justify-content: center;
   align-items: strech;
   margin-left: 5%; 
+  
+
 }
 
 #bigger {
@@ -156,4 +160,8 @@ p.textbox {
 }
 #opening {
 	/*width: 300px*/
+}
+#loneman{
+	padding: 50px;
+	background-color:rgba(255, 255, 255, 0.05);
 }
