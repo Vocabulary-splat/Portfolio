@@ -126,7 +126,7 @@ p.textbox {
 	align-items: stretch;
 }
 .projectsholder {
-	height: 300vh;
+	height: 360vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
